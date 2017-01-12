@@ -15,12 +15,12 @@ describe('Merge Sort', function(){
 });
 */
 describe('Merge Sort', function(){
-  it('is able to merge two sorted arrays into one sorted array', function(){
+  it('is able to mergesort an odd array', function(){
     expect(mergeSort([2, 4, 10, 3, 5, 1, 8])).toEqual([1, 2, 3, 4, 5, 8, 10])
   });
 
 
-  it('is able to merge two sorted arrays into one sorted array', function(){
+  it('is able to mergesort an even array', function(){
     expect(mergeSort([2, 4, 10, 3, 5, 6, 100, 23, 10, 3, -100,50])).toEqual([-100,2, 3, 3, 4, 5, 6, 10, 10, 23, 50,100])
   });
 
